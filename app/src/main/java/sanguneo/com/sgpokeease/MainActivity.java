@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         webSet.setDomStorageEnabled(true);
         webSet.setJavaScriptEnabled(true);
         webSet.setUseWideViewPort(true);
+        webSet.setLoadWithOverviewMode(true);
         webSet.setBuiltInZoomControls(false);
         webSet.setAllowUniversalAccessFromFileURLs(true);
         webSet.setLayoutAlgorithm(WebSettings.LayoutAlgorithm.SINGLE_COLUMN);
